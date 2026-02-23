@@ -1,8 +1,4 @@
 
-<p align="center">
-  <img src="i/Users/noshinnawal/Desktop/noshin_seimens/Semeval-Task-2-Named-Entity-Recognition/image1.png" alt="Project Pipeline Diagram" width="800">
-</p>
-
 # Named Entity Recognition (Phase-I) and Translation Pipeline (Phase-II)
 
 This project provides a pipeline for identifying named entities in sentences, querying Wikidata for their corresponding entity information, and retrieving translations in a target language. The tool is implemented in Python and leverages the `transformers` library for Named Entity Recognition (NER) and the Wikidata SPARQL endpoint for querying entity information.
@@ -17,9 +13,9 @@ This project provides a pipeline for identifying named entities in sentences, qu
    - For identified entities, the script queries Wikidata to fetch the entity's label(Named Entities) in the specified target language.
    - If no entities are found using n-grams with capitalization heuristics, the search is expanded to handle cases where named entities may have been missed due to punctuation issues. For example, for a named entity like “Symphony No.9”, it will ignore the punctuation and correctly identify the entity.
    - Additionally, a pre-trained NER model is used to validate whether individual tokens are likely to be named entities.
-2. **Wikidata Integration:** Queries the Wikidata SPARQL endpoint to retrieve entity information and translations.
-3. **Multi-Language Support:** Supports translations in various languages by specifying a target language code.
-4. **Flexible Input/Output:** Reads input sentences from a CSV file and saves the results to an output CSV file.
+3. **Wikidata Integration:** Queries the Wikidata SPARQL endpoint to retrieve entity information and translations.
+4. **Multi-Language Support:** Supports translations in various languages by specifying a target language code.
+5. **Flexible Input/Output:** Reads input sentences from a CSV file and saves the results to an output CSV file.
 
 ---
 
