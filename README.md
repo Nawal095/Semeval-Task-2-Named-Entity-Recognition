@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="Semeval-Task-2-Named-Entity-Recognition/image1.png" alt="Project Pipeline Diagram" width="800">
+  <img src="Semeval-Task-2-Named-Entity-Recognition/image1.png" alt="Summary Diagram" width="800">
 </p>
 
 # Named Entity Recognition (Phase-I) and Translation Pipeline (Phase-II)
